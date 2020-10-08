@@ -25,3 +25,5 @@ function calculateVolume(){
         displayTotal.innerHTML = 'Total Volume: ' + total.toFixed(2)
     }
 }
+
+calculateVolume()
