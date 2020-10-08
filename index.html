@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Volume Calculator</title>
+        <link rel='stylesheet' href='./styles.css'>
+    </head>
+    <body>
+        <main>
+            <h1>Volume Calculator</h1>
+            <section>
+                <div>
+                    <label for="select-shape">Select Shape</label>
+                        <select id="select-shape">
+                            <option value="Cone">Cone</option>
+                            <option value="Sphere">Sphere</option>
+                            <option value="Cylinder">Cylinder</option>
+                        </select>
+                    <label for="input-radius">Radius</label>
+                        <input id="input-radius" type="number" value="0">
+                    <label for="input-height">Height</label>
+                        <input id="input-height" type="number" value="0">
+                </div>
+                <div id="display-total">0.00</div>
+            </section>
+        </main>
+        <script src='scripts.js'></script>
+    </body>
+</html>
